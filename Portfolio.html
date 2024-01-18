@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="textStyles.css">
+<link rel="stylesheet" href="tabStyle.css">
+<link rel="stylesheet" href="columnStyles.css">
+<title>Resume Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+  <div class="row">
+    <div class="column1" style="background-color:#ffffff;" >
+
+    </div>
+    <div class="column1a" style="background-color:#f1f1f1;" >
+
+      <h1 class="name">
+        Andrew Stephenson
+      </h1>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column1" style="background-color:#ffffff;" >
+
+    </div>
+    <div class="column1a" style="background-color:#f1f1f1;" >
+
+    <div class="tab" >
+      <button class="tablinks" onclick="openInfo(event, 'Contact Info')" id="defaultOpen">Contact Info</button>
+      <button class="tablinks" onclick="openInfo(event, 'Skills')">Skills</button>
+      <button class="tablinks" onclick="openInfo(event, 'Education')">Education</button>
+      <button class="tablinks" onclick="openInfo(event, 'Work Experience')">Work Experience</button>
+      <button class="tablinks" onclick="openInfo(event, 'Clubs')">Clubs</button>
+      <button class="tablinks" onclick="openInfo(event, 'Course Work')">Course Work</button>
+    </div>
+
+    </div>
+    <div class="column1" style="background-color:#ffffff;" >
+
+    </div>
+  </div>
+    
+    <div id="Contact Info" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+      <div class="row">
+        <div class="column1" style="background-color:#ffffff;" >
+
+        </div>
+        <div class="column1a" style="background-color:#f1f1f1;" >
+
+        <p class="text">618-521-3800 </p>
+        <p class="text">amstephenson3@crimson.ua.edu </p>
+        <a href="https://www.linkedin.com/in/a-m-stephenson/" class="link">MyLinkedIn</a>
+          
+        </div>
+      </div>
+    </div>
+    
+
+    <div id="Skills" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+        <div class="row">
+            <div class="column2" style="background-color:#ffffff;" >
+
+            </div>
+            <div class="column2" style="background-color:#ffffff;" >
+
+            </div>
+            <div class="column2a" style="background-color:#f1f1f1;" >
+
+                <b class="subHeader">Coding </b>
+                <p class="text">- C++ (proficient) </p>
+                <p class="text">- C (beginner) </p>
+                <p class="text">- C# (beginner) </p>
+                <p class="text">- Java (beginner) </p>
+                <p class="text">- Html (beginner) </p>
+                <p class="text">- CSS (beginner) </p>
+
+            </div>
+            <div class="column2a" style="background-color:#f1f1f1;" >
+
+                <b class="subHeader">Computer </b>
+                <p class="text">- Visual Studio </p>
+                <p class="text">- Eclipse </p>
+                <p class="text">- MATLAB </p>
+                <p class="text">- Simulink </p>
+                <p class="text">- Stateflow </p>
+                <p class="text">- Git </p>
+                <p class="text">- Unity </p>
+
+            </div>
+            <div class="column2a" style="background-color:#f1f1f1;">
+                
+                <b class="subHeader">Soft </b>
+                <p class="text">- Working in team environments </p>
+                <p class="text">- Providing customer support </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="Education" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+        <div class="row">
+        <div class="column3" style="background-color:#ffffff;">
+
+        </div>
+        <div class="column3a" style="background-color:#f1f1f1;">
+
+            <b class="subHeader">The University of Alabama, May 2026 </b>
+            <p class="text">Tuscaloosa, AL </p>
+            <p class="text">Bachelor of Science in Computer Science </p>
+            <p class="text">GPA: 4.0/4.0 </p>
+            <p class="text">Honors College </p>
+
+            <b class="subHeader">Carterville High School, May 2022 </b>
+            <p class="text">Carterville, IL </p>
+            <p class="text">GPA: 4.25/4.0 Weighted/Unweighted</p>
+            <p class="text">Class Valedictorian </p>
+
+        </div>
+        <div class="column3" style="background-color:#ffffff;">
+
+            <img src="alabamaLogo.png" alt="Italian Trulli" style="float:left;width:305px;height:260px;">
+            <img src="cartervilleLogo.png" alt="Italian Trulli" style="float:left;width:305px;height:260px;">
+
+        </div>
+        </div>
+
+    </div>
+    
+    <div id="Work Experience" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+      <div class="row">
+        <div class="column1" style="background-color:#ffffff;" >
+
+        </div>
+        <div class="column1a" style="background-color:#f1f1f1;" >
+
+          <b class="subHeader">Sam's Club, Marion, IL, April 2022 - August 2023 Seasonal </b>
+          <p class="subHeader">Merchandiser </p>
+          <p class="text">- Ensured area of responsibility is maintained in accordance with company policies and procedures for zoning and organizing merchandise </p>
+          <p class="text">- Assisted members with purchasing decisions and locating merchandise </p>
+          <p class="text">- Worked independently and collaboratively in a team environment </p>
+          <p class="text">- Self-motivated, with a strong sense of personal responsibility </p>
+          <p class="text">- Worked flexible hours across night, weekend and holiday shifts </p>
+  
+          <b class="subHeader">Culver's, Carbondale, IL, February 2021 - December 2021 </b>
+          <p class="subHeader">Customer Service Associate </p>
+          <p class="text">- Oversaw food production in adherence to Illinois Department of Public Health Guidelines </p>
+          <p class="text">- Ensured a positive dining experience </p>
+          <p class="text">- Worked well in a team setting providing support and guidance </p>
+          <p class="text">- Worked effectively in a fast-paced environment </p>
+
+      </div>
+    </div>
+
+    </div>
+
+    <div id="Clubs" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+        <div class="row">
+          <div class="column1" style="background-color:#ffffff;" >
+  
+          </div>
+          <div class="column1a" style="background-color:#f1f1f1;" >
+  
+            <b class="subHeader">EcoCAR EV Challenge </b>
+            <p class="text">- Use of Gitlab task board to complete tasks in a timely manner </p>
+            <p class="text">- Use of MATLAB and Simulink to create a working sensor fusion algorithm </p>
+            <p class="text">- Use of driving scenario designer and unreal engine through MATLAB </p>
+    
+            <b class="subHeader">Sigma Alpha Mu Fraternity </b>
+            <p class="text">- Host Sammy-Safebox philanthropy for the University of Alabama, donating to the Tuscaloosa Safe Center </p>
+            <p class="text">- Raise money for The Judy Fund, Alzeimers Association </p>
+            <p class="text">- Strive for academic excellence and involvement within the community </p>    
+  
+        </div>
+      </div>
+  
+    </div>
+
+    <div id="Course Work" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+        <div class="row">
+          <div class="column1" style="background-color:#ffffff;" >
+  
+          </div>
+          <div class="column1a" style="background-color:#f1f1f1;" >
+
+        <b class="subHeader">Completed Classes </b>
+        <p class="text">CS I/CS II for Majors - C/C++ programming and algorithm introduction </p>
+        <p class="text">The Discipline Of Computing - Introduction to Computer Science career paths </p>
+        <p class="text">CS III for Majors - Introduction to Software Engineering </p>
+        <p class="text">Digital Logic - Introduction to digital logic functions and systems </p>
+        <p class="text">Microcomputers - Introduction to microprocessors and assembly language </p>
+        
+      </div>
+    </div>
+
+    </div>
+    
+    <script>
+    function openInfo(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+</html>
