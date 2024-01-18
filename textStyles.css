@@ -15,6 +15,15 @@ body {
     margin: 30px;
   }
 
+  .mainHeader {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+    font-size:50px;
+    
+  }
+
+
   .header {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
