@@ -63,7 +63,7 @@
     float: left;
     width: 10%;
     padding: 10px;
-    height: 550px;
+    height: 470px;
   }
   
   /* Clear floats after the columns */
@@ -89,7 +89,7 @@
     float: left;
     width: 26.66%;
     padding: 10px;
-    height: 550px;
+    height: 470px;
     border-right-style: solid;
     border-left-style: solid;
     border-left-width: 1px;
@@ -117,7 +117,7 @@
   /* Create three equal columns that floats next to each other */
   .column3 {
     float: left;
-    width: 10%;
+    width: 25%;
     padding: 10px;
   }
   
@@ -148,6 +148,7 @@
     border-left-style: solid;
     border-left-width: 1px;
     border-right-width: 1px;
+    height: 520px;
   }
   
   /* Clear floats after the columns */
@@ -160,6 +161,54 @@
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column3a {
+      width: 100%;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column4 {
+
+    float: left;
+    width: 25%;
+    padding: 1px;    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column4 {
+      width: 100%;
+    }
+  }
+
+  /* Create three equal columns that floats next to each other */
+  .column4a {
+
+    float: left;
+    width: 50%;
+    padding: 1px;    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column4a {
       width: 100%;
     }
   }

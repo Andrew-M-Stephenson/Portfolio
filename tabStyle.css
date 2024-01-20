@@ -17,7 +17,7 @@ body {font-family: 'Times New Roman', Times, serif; }
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
-  
+  width: 16.49%;
 }
 
 /* Change background color of buttons on hover */
@@ -32,6 +32,59 @@ body {font-family: 'Times New Roman', Times, serif; }
 
 /* Style the tab content */
 .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.topright:hover {color: red;}
+
+
+
+
+
+body {font-family: 'Times New Roman', Times, serif; }
+
+/* Style the tab */
+.tab1 {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab1 button {
+  background-color: inherit;
+  float: middle;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 100%;
+}
+
+/* Change background color of buttons on hover */
+.tab1 button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab1 button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent1 {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
