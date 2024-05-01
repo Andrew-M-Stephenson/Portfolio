@@ -137,13 +137,12 @@
   /* Create three equal columns that floats next to each other */
   .column3a {
     float: left;
-    width: 40%;
+    width: 50%;
     padding: 10px;
     border-right-style: solid;
     border-left-style: solid;
     border-left-width: 1px;
     border-right-width: 1px;
-    height: 520px;
   }
   
   /* Clear floats after the columns */
