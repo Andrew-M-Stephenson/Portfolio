@@ -143,6 +143,10 @@
     border-left-style: solid;
     border-top-style: solid;
     border-bottom-style: solid;
+    border-top-color:#00ff62;
+    border-bottom-color:#00ff62;
+    border-left-color:#00ff62;
+    border-right-color:#00ff62;
   }
   
   /* Clear floats after the columns */
