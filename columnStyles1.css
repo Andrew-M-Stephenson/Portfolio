@@ -34,8 +34,6 @@
     float: left;
     width: 80%;
     padding: 1px;    
-    border-left-width: 1px;
-    border-right-width: 1px;
   }
   
   /* Clear floats after the columns */
@@ -61,7 +59,6 @@
     float: left;
     width: 10%;
     padding: 10px;
-    height: 470px;
   }
   
   /* Clear floats after the columns */
