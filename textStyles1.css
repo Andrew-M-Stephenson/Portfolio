@@ -54,6 +54,14 @@ body {
     text-indent: 50px;
   }
 
+  .paragraph1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    font-size:40px;
+    text-indent: 50px;
+  }
+
   .link {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
