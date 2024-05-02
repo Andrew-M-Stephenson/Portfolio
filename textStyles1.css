@@ -9,6 +9,13 @@ body {
     font-size: 100px;
   }
 
+  h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 75px;
+  }
+
   b {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
