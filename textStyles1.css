@@ -16,6 +16,13 @@ body {
     font-size: 75px;
   }
 
+  h4 {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+  }
+
   b {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
