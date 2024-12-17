@@ -63,7 +63,7 @@
     float: left;
     width: 10%;
     padding: 10px;
-    height: 470px;
+    height: 550px;
   }
   
   /* Clear floats after the columns */
@@ -89,7 +89,7 @@
     float: left;
     width: 26.66%;
     padding: 10px;
-    height: 470px;
+    height: 550px;
     border-right-style: solid;
     border-left-style: solid;
     border-left-width: 1px;
