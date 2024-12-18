@@ -1,0 +1,19 @@
+/* Styling for the box */
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: none; /* No animation by default */
+  }
+  
+  /* Define the animation */
+  @keyframes move {
+    from {
+      left: 0;
+    }
+    to {
+      left: 300px;
+    }
+  }
+  
