@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;  /* Center horizontally */
   align-items: center;      /* Center vertically */
-  height: 100vh;            /* Take full viewport height */
+  height: 75vh;            /* Take full viewport height */
 }
 
 /* General styling for the gallery */
