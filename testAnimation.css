@@ -1,4 +1,12 @@
 /* General styling for the gallery */
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+  margin: 0;                
+}
+
 #gallery1 {
     width: 600px;
     height: 400px;
