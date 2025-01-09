@@ -1,4 +1,4 @@
-const galleryImages = document.querySelectorAll('#gallery1 img'); // Select all items
+const galleryImages = document.querySelectorAll('#gallery img'); // Select all items
 let currentIndex = 0;
 
 // Function to show the next image
